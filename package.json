@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "lint": "./node_modules/.bin/eslint index.js ./src/**/*.js ./__tests__/**/*.js",
+    "lint": "./node_modules/.bin/eslint .",
     "test": "./node_modules/.bin/jest"
   },
   "repository": {
